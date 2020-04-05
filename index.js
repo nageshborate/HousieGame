@@ -29,4 +29,4 @@ app.get('/ticket/:personName', (req, res) => res.send(getSingleTicketView(appDat
 
 app.get('/add/:personName', (req, res) => res.send(addPerson(appData, req.params)))
 
-app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
+app.listen(port, () => console.log(`Housie app listening at http://localhost:${port}`))
