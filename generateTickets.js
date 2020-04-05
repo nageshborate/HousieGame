@@ -18,6 +18,8 @@ exports.generateTickets = function(appData)
 
   appData.tickets = ticketsObject;
   appData.ticked = tickedObject;
+  appData.generatedNumbers = [];
+  appData.currentGeneratedNumber = undefined;
 
   return 'done';
 };
